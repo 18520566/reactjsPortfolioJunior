@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/reactjsPortfolioJunior/static/css/main.7058a633.css",
-    "main.js": "/reactjsPortfolioJunior/static/js/main.93dc894b.js",
+    "main.js": "/reactjsPortfolioJunior/static/js/main.943d621e.js",
     "static/media/HTD.png": "/reactjsPortfolioJunior/static/media/HTD.f669a8358f368b83477b.png",
     "static/media/PORTFOLIO_PROJECT_SCHOOL_SNEAKER_WEB.jpg": "/reactjsPortfolioJunior/static/media/PORTFOLIO_PROJECT_SCHOOL_SNEAKER_WEB.55fa852086f901fbd363.jpg",
     "static/media/ABOUT_ME_2.jpg": "/reactjsPortfolioJunior/static/media/ABOUT_ME_2.ca97068e0141261b5ad9.jpg",
@@ -9,10 +9,10 @@
     "static/media/TESTIMONIALS_VTHU.jpg": "/reactjsPortfolioJunior/static/media/TESTIMONIALS_VTHU.283bf66aaf67c6fcca01.jpg",
     "index.html": "/reactjsPortfolioJunior/index.html",
     "main.7058a633.css.map": "/reactjsPortfolioJunior/static/css/main.7058a633.css.map",
-    "main.93dc894b.js.map": "/reactjsPortfolioJunior/static/js/main.93dc894b.js.map"
+    "main.943d621e.js.map": "/reactjsPortfolioJunior/static/js/main.943d621e.js.map"
   },
   "entrypoints": [
     "static/css/main.7058a633.css",
-    "static/js/main.93dc894b.js"
+    "static/js/main.943d621e.js"
   ]
 }
