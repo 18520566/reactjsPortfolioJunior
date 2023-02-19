@@ -10,6 +10,10 @@ header {
     position: relative;
 }
 
+h5 > span {
+    color: var(--color-primary)
+}
+
 /* CTA */
 
 .cta {
@@ -68,13 +72,10 @@ header {
         height: 120vh;
     }
 
-    .header__socials {
-        bottom: 27rem;
-    }
+    .header__socials, .scroll_down {
+        display: none;
+       }
 
-    .scroll_down{
-        bottom: 29rem;
-    }
   }
   
   /* MEDIA QUERIES - MOBILE */

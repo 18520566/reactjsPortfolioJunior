@@ -1,15 +1,13 @@
-import React, { useRef } from "react";
-import "./index.css";
-import { MdOutlineEmail } from "react-icons/md";
-import { RiMessengerLine } from "react-icons/ri";
-import { BsPhone } from "react-icons/bs";
 import emailjs from "emailjs-com";
+import React, { useRef } from "react";
+import { contactArrItem } from "../../GlobalContanst";
+import "./index.css";
 
 const Contact = () => {
   const form = useRef();
   const sendEmail = (e) => {
-    console.log('it goes here')
-    e.preventDefault()
+    console.log("it goes here");
+    e.preventDefault();
 
     emailjs.sendForm(
       "service_jvlz5xn",
@@ -18,7 +16,7 @@ const Contact = () => {
       "AKI2sWddux2KkMjxn"
     );
 
-    e.target.reset()
+    e.target.reset();
   };
 
   return (
@@ -28,26 +26,19 @@ const Contact = () => {
 
       <div className="container contact__container">
         <div className="contact__options">
-          <article className="contact__option">
-            <MdOutlineEmail className="contact__option-icon" />
-            <h4>Email</h4>
-            <h5>tiendat.hoang192@gmail.com</h5>
-            <a href="mailto:tiendat.hoang192@gmail.com" target="_blank">
-              Send a message
-            </a>
-          </article>
-          <article className="contact__option">
-            <RiMessengerLine className="contact__option-icon" />
-            <h4>Messenger</h4>
-            <h5>Dat Hoang</h5>
-            <a href="https://m.me/dat.hoang.2000">Send a message</a>
-          </article>
-          <article className="contact__option">
-            <BsPhone className="contact__option-icon" />
-            <h4>Phone</h4>
-            <h5>+84 934236606</h5>
-          </article>
-        </div>
+          {contactArrItem.map((item) => {
+            return (
+              <article className="contact__option">
+                {item.icon}
+                <h4>{item.title}</h4>
+                <h5>{item.subTitle}</h5>
+                <a href={item.href ?? undefined} target="_blank">
+                  {item.text}
+                </a>
+              </article>
+            );
+          })}          
+          </div>
         {/* end of contact options */}
         <form ref={form} onSubmit={sendEmail}>
           <input type="text" name="name" placeholder="Your name" required />

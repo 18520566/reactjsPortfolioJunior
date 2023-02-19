@@ -55,6 +55,7 @@
     .experience__content {
         padding: 1rem;
     }
+
   }
   
   /* MEDIA QUERIES - MOBILE */
@@ -67,5 +68,10 @@
     .experience__container > div {
         width: 100%;
         padding: 2rem 1rem;
+    }
+
+    
+    .experience__details {
+        display: grid;
     }
   }

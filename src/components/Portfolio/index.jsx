@@ -1,19 +1,9 @@
 import React from "react";
+import { portfolioArrItem } from "../../GlobalContanst";
 import "./index.css";
-import IMG1 from "../../assets/PORTFOLIO_PROJECT_SCHOOL_SNEAKER_WEB.jpg";
 
-const arrItem = [
-  {
-    img: IMG1,
-    title: "This is a portfolio item title",
-    href: "https://github.com",
-  },
-  {
-    img: IMG1,
-    title: "This is a portfolio item title",
-    href: "https://github.com",
-  },
-];
+
+
 
 const Portfolio = () => {
   return (
@@ -22,7 +12,7 @@ const Portfolio = () => {
       <h2>Portfolio</h2>
 
       <div className="container portfolio__container">
-        {arrItem.map((item) => {
+        {portfolioArrItem.map((item) => {
           return (
             <article className="portfolio__item">
               <div className="portfolio__item-image">

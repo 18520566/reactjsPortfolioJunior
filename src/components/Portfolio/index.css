@@ -20,10 +20,12 @@
 .portfolio__item-image {
     border-radius: 1.5rem;
     overflow: hidden;
+    height: 20rem;
 }
 
 .portfolio__item h3 {
     margin: 1.2rem 0 2rem;
+    height: 8rem;
 }
 
 .portfolio__item-cta {

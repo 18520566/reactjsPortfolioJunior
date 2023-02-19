@@ -1,25 +1,12 @@
 import React from "react";
-import "./index.css";
-import IMG1 from "../../assets/TESTIMONIALS_VTHU.jpg";
-import { Swiper, SwiperSlide } from "swiper/react";
 import { Pagination } from "swiper";
 import "swiper/css";
 import "swiper/css/pagination";
+import { Swiper, SwiperSlide } from "swiper/react";
+import { testimonialsArrItem } from "../../GlobalContanst";
+import "./index.css";
 
-const arrItem = [
-  {
-    name: "name",
-    img: IMG1,
-    review:
-      "This is a very long review.This is a very long review.This is a very long review.This is a very long review.This is a very longreview.This is a very long review.This is a very long review.This is a very long review.",
-  },
-  {
-    name: "name",
-    img: IMG1,
-    review:
-      "This is a very long review.This is a very long review.This is a very long review.This is a very long review.This is a very longreview.This is a very long review.This is a very long review.This is a very long review.",
-  },
-];
+
 
 const Testimonials = () => {
   return (
@@ -34,7 +21,7 @@ const Testimonials = () => {
         slidesPerView={1}
         pagination={{ clickable: true }}
       >
-        {arrItem.map((item) => {
+        {testimonialsArrItem.map((item) => {
           return (
             <SwiperSlide className="testimonial">
               <div className="client__avatar">
