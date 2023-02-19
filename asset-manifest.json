@@ -1,18 +1,23 @@
 {
   "files": {
-    "main.css": "/reactjsPortfolioJunior/static/css/main.7058a633.css",
-    "main.js": "/reactjsPortfolioJunior/static/js/main.943d621e.js",
+    "main.css": "/reactjsPortfolioJunior/static/css/main.a2de1019.css",
+    "main.js": "/reactjsPortfolioJunior/static/js/main.664e777b.js",
+    "static/media/PORTFOLIO_SCHOOL_PROJECT_MUSIC_APP.jpg": "/reactjsPortfolioJunior/static/media/PORTFOLIO_SCHOOL_PROJECT_MUSIC_APP.5fef09ac8dab70e4c1c5.jpg",
     "static/media/HTD.png": "/reactjsPortfolioJunior/static/media/HTD.f669a8358f368b83477b.png",
-    "static/media/PORTFOLIO_PROJECT_SCHOOL_SNEAKER_WEB.jpg": "/reactjsPortfolioJunior/static/media/PORTFOLIO_PROJECT_SCHOOL_SNEAKER_WEB.55fa852086f901fbd363.jpg",
+    "static/media/TESTIMONIALS_NLNT.jpg": "/reactjsPortfolioJunior/static/media/TESTIMONIALS_NLNT.7b935c552a3c62fa5f9a.jpg",
+    "static/media/PORTFOLIO_PROJECT_AUTOPROFF.jpg": "/reactjsPortfolioJunior/static/media/PORTFOLIO_PROJECT_AUTOPROFF.fce07a567798b2dc4c56.jpg",
+    "static/media/TESTIMONIALS_QLP.jpg": "/reactjsPortfolioJunior/static/media/TESTIMONIALS_QLP.88e826a3181516e6aa57.jpg",
     "static/media/ABOUT_ME_2.jpg": "/reactjsPortfolioJunior/static/media/ABOUT_ME_2.ca97068e0141261b5ad9.jpg",
     "static/media/HTD_CV_TEST.pdf": "/reactjsPortfolioJunior/static/media/HTD_CV_TEST.5a98c90510bcff612a58.pdf",
     "static/media/TESTIMONIALS_VTHU.jpg": "/reactjsPortfolioJunior/static/media/TESTIMONIALS_VTHU.283bf66aaf67c6fcca01.jpg",
+    "static/media/PORTFOLIO_PROJECT_GEEKUP.jpg": "/reactjsPortfolioJunior/static/media/PORTFOLIO_PROJECT_GEEKUP.e7fb7b47f882115d37de.jpg",
+    "static/media/PORTFOLIO_PROJECT_SCHOOL_SNEAKER_WEB.jpg": "/reactjsPortfolioJunior/static/media/PORTFOLIO_PROJECT_SCHOOL_SNEAKER_WEB.962bc7698b69b6fd4b95.jpg",
     "index.html": "/reactjsPortfolioJunior/index.html",
-    "main.7058a633.css.map": "/reactjsPortfolioJunior/static/css/main.7058a633.css.map",
-    "main.943d621e.js.map": "/reactjsPortfolioJunior/static/js/main.943d621e.js.map"
+    "main.a2de1019.css.map": "/reactjsPortfolioJunior/static/css/main.a2de1019.css.map",
+    "main.664e777b.js.map": "/reactjsPortfolioJunior/static/js/main.664e777b.js.map"
   },
   "entrypoints": [
-    "static/css/main.7058a633.css",
-    "static/js/main.943d621e.js"
+    "static/css/main.a2de1019.css",
+    "static/js/main.664e777b.js"
   ]
 }
